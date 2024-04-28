@@ -53,6 +53,13 @@ a:hover .bi[b-uxky43wpbs] {
     transition: all 2s;
 }
 
+#email[b-uxky43wpbs] {
+    margin: 0;
+    width:auto;
+    color: deepskyblue;
+}
+
+
 .form-group[b-uxky43wpbs] {
     margin: 10px;
 }
@@ -159,6 +166,13 @@ ul[b-mq7z4ysphi] {
     list-style-type: none;
 }
 
+h2[b-mq7z4ysphi] {
+    background: -webkit-linear-gradient(60deg, rgb(0, 255, 33), rgb(72, 0, 255));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-weight:1000;
+}
+
 span[b-mq7z4ysphi] {
     font-size: 16px;
     overflow-wrap: anywhere;
@@ -181,6 +195,18 @@ a[b-mq7z4ysphi] {
 
 a:hover .bi[b-mq7z4ysphi] {
     color: green;
+}
+
+li > a[b-mq7z4ysphi] {
+    margin: 0;
+    width: auto;
+    font-size: 16px;
+    color: deepskyblue;
+}
+
+ul > li[b-mq7z4ysphi] {
+    display: inline-block;
+    /* You can also add some margins here to make it look prettier */
 }
 
 @media only screen and (max-width: 900px) {
