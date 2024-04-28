@@ -23,6 +23,7 @@ html, body {
     font-family: 'Libre', Helvetica, Arial, sans-serif;
     font-size: 20px;
     color: white;
+    background-color: rgb(144, 238, 144);
     background-image: url(../images/background.png);
     background-attachment: fixed;
 }
