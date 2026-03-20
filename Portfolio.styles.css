@@ -1,4 +1,4 @@
-/* _content/Portfolio/Components/Layout/MainLayout.razor.rz.scp.css */
+/* /Components/Layout/MainLayout.razor.rz.scp.css */
 
 
 .grid[b-6s3h03cu1w] {
@@ -23,7 +23,7 @@
         right: 0.75rem;
         top: 0.5rem;
     }
-/* _content/Portfolio/Components/Layout/NavMenu.razor.rz.scp.css */
+/* /Components/Layout/NavMenu.razor.rz.scp.css */
 .navbar[b-fw0lmtliz2] {
     background-color: #212529;
     [cite: 131] width: 100%;
@@ -164,7 +164,7 @@ li[b-fw0lmtliz2] {
         [cite: 131]
     }
 }
-/* _content/Portfolio/Components/Pages/Animation.razor.rz.scp.css */
+/* /Components/Pages/Animation.razor.rz.scp.css */
 .data[b-i3a2dcf00d] {
     border-radius: 30px;
     margin: 5rem auto; /* Centers the div perfectly */
@@ -183,7 +183,7 @@ li[b-fw0lmtliz2] {
         margin: 2rem auto;
     }
 }
-/* _content/Portfolio/Components/Pages/Contact.razor.rz.scp.css */
+/* /Components/Pages/Contact.razor.rz.scp.css */
 .contact-info-card[b-c3qe0tp4q8] {
     background: rgba(45, 45, 45, 0.8);
     border-radius: 20px;
@@ -247,7 +247,7 @@ li[b-fw0lmtliz2] {
     .social-links a:hover .bi[b-c3qe0tp4q8] {
         color: #1db954;
     }
-/* _content/Portfolio/Components/Pages/Education.razor.rz.scp.css */
+/* /Components/Pages/Education.razor.rz.scp.css */
 .education-card[b-4g0b6gqqdb] {
     background: rgba(45, 45, 45, 0.8);
     border: 1px solid rgba(255, 255, 255, 0.1);
@@ -291,7 +291,7 @@ li[b-fw0lmtliz2] {
         padding: 25px;
     }
 }
-/* _content/Portfolio/Components/Pages/Home.razor.rz.scp.css */
+/* /Components/Pages/Home.razor.rz.scp.css */
 .content p[b-msgvu9ph55] {
     font-size: 1.1rem;
     line-height: 1.6;
@@ -329,7 +329,7 @@ ul[b-msgvu9ph55] {
         font-size: 35px;
     }
 }
-/* _content/Portfolio/Components/Pages/Projects.razor.rz.scp.css */
+/* /Components/Pages/Projects.razor.rz.scp.css */
 /* Modern CSS Grid Layout */
 .project-grid[b-gtg71hy2sf] {
     display: grid;
@@ -389,7 +389,7 @@ p[b-gtg71hy2sf] {
         grid-template-columns: 1fr;
     }
 }
-/* _content/Portfolio/Components/Pages/Skills.razor.rz.scp.css */
+/* /Components/Pages/Skills.razor.rz.scp.css */
 .skills-container[b-02k1e6ktf8] {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
@@ -460,7 +460,7 @@ h3[b-02k1e6ktf8] {
         padding: 8px 14px;
     }
 }
-/* _content/Portfolio/Components/Pages/Work.razor.rz.scp.css */
+/* /Components/Pages/Work.razor.rz.scp.css */
 .experience-card[b-5n9hznwx02] {
     background: rgba(45, 45, 45, 0.8);
     border: 1px solid rgba(255, 255, 255, 0.1);
