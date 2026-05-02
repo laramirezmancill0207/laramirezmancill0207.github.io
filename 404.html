@@ -8,7 +8,7 @@
     <base href="/" />
     <link href="/css/bootstrap/bootstrap.min.css" rel="stylesheet" />
     <link href="/css/app.css" rel="stylesheet" />
-    <link rel="icon" type="/image/png" href="favicon.png" />
+    <link rel="icon" type="/image/png" href="/favicon.png" />
     <link href="/PortfolioSite.styles.css" rel="stylesheet" />
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
@@ -16,11 +16,13 @@
 
 <body>
     <div id="app">
-        <svg class="loading-progress">
-            <circle r="40%" cx="50%" cy="50%" />
-            <circle r="40%" cx="50%" cy="50%" />
-        </svg>
-        <div class="loading-progress-text"></div>
+        <!-- Custom Loading Screen -->
+        <div style="display:flex; flex-direction:column; justify-content:center; align-items:center; height:100vh; background:rgba(45, 45, 45, 1);">
+            <h2 style="color:#1db954; font-family:sans-serif; margin-bottom: 20px;">Loading Portfolio...</h2>
+            <div class="spinner-border text-success" role="status">
+                <span class="visually-hidden">Loading...</span>
+            </div>
+        </div>
     </div>
 
     <div id="blazor-error-ui">
@@ -30,7 +32,7 @@
     </div>
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <script src="/js/animation.js"></script>
-    <script src="_framework/blazor.webassembly.js"></script>
+    <script src="/_framework/blazor.webassembly.js"></script>
 </body>
 
 </html>
